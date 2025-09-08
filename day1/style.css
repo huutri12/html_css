@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.block-new {
+  width: 730px;
+  display: inline-block;
+  /* gap: 20px; */
+}
+
+.block-new_right {
+  width: 351px;
+  float: right;
+  
+}
+
+.block-new_left {
+  width: 351px;
+  float: left;
+}
+.block-new h3 {
+  width: 100%;
+  display: inline-block;
+  color: green;
+
+  text-transform: uppercase;
+  border-bottom: 1px solid green;
+  padding-bottom: 10px;
+}
+.tab {
+  width: 100%;
+  display: inline-block;
+  text-align: left;
+
+  // tạo khoảng cách với the h3 và thẻ bên dưới
+  margin: 10px 0;
+}
+.tab li {
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 7px;
+  margin:10px 0 ;
+}
+.block-new_left img {
+  width: 100%;
+  height: 200px;
+}
+.block-new_left h4 {
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+
+  // tạo khoảng cách với thẻ trên và dưới là 15px
+  margin: 15px 0;
+}
+.block-new_right img {
+  width: 100%;
+  height: 200px;
+}
+.block-new_right h4 {
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+
+  // tạo khoảng cách với thẻ trên và dưới là 15px
+  margin: 15px 0;
+}
+.list_more {
+  display: inline-block;
+  width: 100px;
+  margin: 15px 0;
+}
+.list_more li {
+  display: inline-block;
+  width: 100px;
+  border-top: 1px solid gray;
+  padding: 10px 0;
+}
