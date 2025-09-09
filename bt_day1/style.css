@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.multimedia {
+  width: 100%;
+}
+
+.multimedia-content {
+  width: 720px;
+  display: inline-block;
+}
+
+.multimedia .menu {
+  width: 100%;
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.multimedia .menu li {
+  display: inline-block;
+}
+
+.multimedia .menu .title {
+  font-weight: bold;
+  color: #7cb342;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.multimedia .menu button {
+  background: #a9cf68;
+  boder: none;
+  padding: 5px 10px;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.multimedia-content .left {
+  width: 350px;
+  float: left;
+}
+
+.multimedia-content .left img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.multimedia-content .left p {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.multimedia-content .right {
+  width: 350px;
+  float: right;
+  list-style: none; // ( xóa các dấu đầu dòng ... )
+}
+.multimedia-content .right li {
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden; // ( nếu không dùng thì sẽ bị sập ảnh)
+}
+.multimedia-content .right img {
+  width: 120px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.multimedia-content .right p {
+  font-size: 15px;
+}
